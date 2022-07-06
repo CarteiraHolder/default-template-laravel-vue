@@ -7,8 +7,8 @@
 
 ## Estrutura
 - API -> Laravel
--- > Rode o comando composer install
--- > php artisan serve
+--  Rode o comando composer install
+--  php artisan serve
 - APP -> Vue.js
--- > Rode o comando npm install
--- > npm run dev
+--  Rode o comando npm install
+--  npm run dev
