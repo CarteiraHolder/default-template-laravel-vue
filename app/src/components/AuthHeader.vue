@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img class="mx-auto h-20 w-auto" src="../assets/logo.png" alt="TeiaExp" />
+        <img class="mx-auto h-20 w-auto" src="../assets/logo.svg" alt="TeiaExp" />
         <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">{{ title }}</h2>
     </div>
 </template>

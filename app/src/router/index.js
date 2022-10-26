@@ -3,6 +3,7 @@ import store from '../store'
 
 import DefaultLayout from '../components/DefaultLayout/DefaultLayout.vue'
 import Dashboard from '../view/Dashboard.vue'
+import Clients from '../view/Clients.vue'
 
 import AuthLayout from '../components/AuthLayout.vue'
 import Login from '../view/Login.vue'
@@ -22,6 +23,15 @@ const routes = [
                 name: 'Dashboard',
                 component: Dashboard,
                 meta: { name: 'Dashboard' }
+            },
+            {
+                path: '/clients',
+                name: 'Clients',
+                component: Clients,
+                meta: {
+                    name: 'Clientes',
+                    description: 'A list of all the users in your account including their name, title, email and role.'
+                }
             },
         ]
     },

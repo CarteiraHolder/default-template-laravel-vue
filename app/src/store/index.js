@@ -7,7 +7,9 @@ const store = createStore({
         user: {
             data: {},
             token: sessionStorage.getItem('TOKEN')
-        }
+        },
+        rowsPerPage: 10
+
     },
     getters: {},
     actions: {

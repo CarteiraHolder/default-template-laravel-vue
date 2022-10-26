@@ -1,5 +1,5 @@
 import { createStore } from 'vuex'
-import { HomeIcon, UsersIcon, GlobeIcon, CashIcon, StarIcon, PresentationChartBarIcon } from '@heroicons/vue/outline'
+import { HomeIcon, UsersIcon, BookOpenIcon } from '@heroicons/vue/outline'
 
 // Create a new store instance.
 const store = createStore({
@@ -11,14 +11,14 @@ const store = createStore({
         ],
         navigation: [
             { name: 'Dashboard', icon: HomeIcon, to: '/dashboard' },
-            // {
-            //     name: 'Usuários',
-            //     icon: UsersIcon,
-            //     children: [
-            //         { name: 'Empresas', to: '/company' },
-            //         { name: 'Pessoas', to: '/person' },
-            //     ],
-            // },
+            {
+                name: 'Cadastros',
+                icon: BookOpenIcon,
+                children: [
+                    { name: 'Clientes', to: '/clients?pag=list' },
+                    // { name: 'Pessoas', to: '/person' },
+                ],
+            },
 
         ]
     },
